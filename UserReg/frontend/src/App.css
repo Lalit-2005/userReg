@@ -1,0 +1,25 @@
+body {
+  background-color: #f8f9fa;
+}
+
+label {
+  font-weight: 500;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+}
+
+.table {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
