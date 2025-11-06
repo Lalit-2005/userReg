@@ -1,0 +1,8 @@
+sudo delete web service userreg-backendservices:
+  - type: web
+    name: userreg-backend
+    env: java
+    rootDir: UserReg/backend
+    buildCommand: "./mvnw clean package -DskipTests"
+    startCommand: "java -jar target/UserReg-0.0.1-SNAPSHOT.jar"
+    plan: free
