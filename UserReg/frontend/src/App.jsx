@@ -422,11 +422,10 @@ const App = () => {
           </div>
 
           <div className="text-center">
-            <button
-              type="submit"
-              className="btn btn-primary px-4"
-              disabled={!isFormValid}
-            >
+           <button
+  type="submit"
+  className="btn btn-primary px-4"
+>
               {editingId ? "Update Employee" : "Add Employee"}
             </button>
 
