@@ -1,6 +1,7 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
+# Include target folder for Render
+!target/
+
+# Ignore other global target folders
 !**/src/main/**/target/
 !**/src/test/**/target/
 
