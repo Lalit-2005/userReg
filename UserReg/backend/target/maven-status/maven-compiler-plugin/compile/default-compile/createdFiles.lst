@@ -7,4 +7,5 @@ com\userpage\UserReg\controller\EmployeeController.class
 com\userpage\UserReg\repository\EmployeeRepository.class
 com\userpage\UserReg\exception\ErrorResponse.class
 com\userpage\UserReg\model\Employee.class
+com\userpage\UserReg\WebConfig.class
 com\userpage\UserReg\service\EmployeeService.class

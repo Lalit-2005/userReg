@@ -9,7 +9,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/employees")
-@CrossOrigin(origins = "http://localhost:5173")  // React frontend
+@CrossOrigin(origins = "https://user-reg-lyart.vercel.app")
+  // React frontend
 public class EmployeeController {
 
     @Autowired
